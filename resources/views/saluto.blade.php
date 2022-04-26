@@ -17,7 +17,7 @@
         </nav>
     </header>
     <main>
-        <h1>Ciao!</h1>
+        <h1>{{$testo}}</h1>
     </main>
 </body>
 </html>

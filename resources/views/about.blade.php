@@ -17,7 +17,7 @@
         </nav>
     </header>
     <main>
-        <h1>E da me che voi, io te posso cantà na canzone?</h1>
+        <h1>{{ $testo }}</h1>
     </main>
 </body>
 </html>

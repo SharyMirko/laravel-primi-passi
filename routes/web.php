@@ -39,7 +39,9 @@ Route::get('/about', function () {
             'name' => 'Saluto',
             'link' => '/saluto'
         ]
-        ]];
+        ],
+        'testo' => 'E da me che voi, io te posso cantà na canzone!'
+    ];
     return view('about', $parametri);
 });
 
@@ -54,6 +56,8 @@ Route::get('/saluto', function () {
             'name' => 'About',
             'link' => '/about'
         ]
-        ]];
+        ],
+        'testo' => 'Ciao!'
+    ];
     return view('saluto', $parametri);
 });
